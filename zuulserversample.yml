@@ -1,1 +1,7 @@
-logging.level.org.apache.http: ERROR
+#logging.level.org.apache.http: DEBUG
+
+zuul:
+  routes:
+    myservice: 
+        path: /myservice/**
+        url: https://d045010-eureka-client.cfapps.sap.hana.ondemand.com:443
