@@ -1,5 +1,5 @@
 zuul:
   routes:
-    myservice: 
+    barservice: 
         path: /bar/**
         url: https://d045010-eureka-client.cfapps.sap.hana.ondemand.com/foo
