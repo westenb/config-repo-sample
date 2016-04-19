@@ -1,6 +1,6 @@
+logging.level.org.apache.http: DEBUG
+
 zuul:
-  debug:
-    request: true
   routes:
     barservice: 
         path: /bar/**
