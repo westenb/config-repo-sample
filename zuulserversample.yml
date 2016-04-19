@@ -1,7 +1,1 @@
-logging.level.org.apache.http: DEBUG
-
-zuul:
-  routes:
-    barservice: 
-        path: /bar/**
-        url: https://d045010-eureka-client.cfapps.sap.hana.ondemand.com/foo
+## todo
