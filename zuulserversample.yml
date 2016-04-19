@@ -5,3 +5,6 @@ zuul:
     myservice: 
         path: /myservice/**
         url: https://d045010-eureka-client.cfapps.sap.hana.ondemand.com:443
+    myservice2: 
+        path: /myservice2/**
+        url: https://d045010-eureka-client.cfapps.sap.hana.ondemand.com:443
