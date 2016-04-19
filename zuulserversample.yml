@@ -1,4 +1,6 @@
 zuul:
+  debug:
+    request: true
   routes:
     barservice: 
         path: /bar/**
