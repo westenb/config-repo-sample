@@ -1,1 +1,3 @@
+logging.level.org.apache.http: DEBUG
+
 info.bar: Configured via GitHub (project specifc)
