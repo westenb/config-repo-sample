@@ -1,3 +1,4 @@
+logging.level.com.sap.test.sic.swift: INFO
 logging.level.com.sap.test.sic.swift.connector: DEBUG
 
 info.bar: Configured via GitHub (project specifc)
