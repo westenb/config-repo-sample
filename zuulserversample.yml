@@ -2,9 +2,9 @@
 
 zuul:
   routes:
-    myservice: 
-        path: /myservice/**
-        url: https://d045010-eureka-client.cfapps.sap.hana.ondemand.com:443
-    myservice2: 
-        path: /myservice2/**
-        url: https://d045010-eureka-client.cfapps.sap.hana.ondemand.com:443
+    swiftservice: 
+        path: /swift/**
+        url: https://swift-basic-test.cfapps.sap.hana.ondemand.com:443/swift
+    cassandraservice: 
+        path: /cassandra/**
+        url: https://d045010-cassandra-sample.cfapps.sap.hana.ondemand.com:443/cassandra
