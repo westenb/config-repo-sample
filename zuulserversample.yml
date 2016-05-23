@@ -8,6 +8,3 @@ zuul:
     cassandraservice: 
         path: /cassandra/**
         url: https://d045010-cassandra-sample.cfapps.sap.hana.ondemand.com:443/cassandra
-    securityservice: 
-        path: /proxy/security/**
-        url: https://d045010-spring-security-sample.cfapps.sap.hana.ondemand.com:443
