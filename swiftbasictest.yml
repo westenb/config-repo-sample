@@ -1,4 +1,4 @@
-logging.level.com.sap.test.sic.swift: DEBUG
+logging.level.com.sap.test.sic.swift: INFO
 logging.level.com.sap.test.sic.swift.os4j: DEBUG
 
 info.bar: Configured via GitHub (project specifc)
