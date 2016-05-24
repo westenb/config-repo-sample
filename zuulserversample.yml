@@ -2,9 +2,6 @@
 
 zuul:
   routes:
-    swiftservice: 
-        path: /swift/**
-        url: https://swift-basic-test.cfapps.sap.hana.ondemand.com:443/swift
     cassandraservice: 
         path: /cassandra/**
         url: https://d045010-cassandra-sample.cfapps.sap.hana.ondemand.com:443/cassandra
